@@ -1,0 +1,21 @@
+{
+  "name": "paypal-incontext-unofficial",
+  "main": "index.js",
+  "version": "2.1.0",
+  "authors": [
+    "Andrew Throener <athroener@gmail.com>"
+  ],
+  "description": "Bower package for PayPal In-Context Checkout",
+  "keywords": [
+    "paypal",
+    "in-context"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
