@@ -32,7 +32,18 @@
 <div id="main_content_wrap" class="outer">
   <section id="main_content" class="inner">
 
+    <pre><code>
+      &lt;script&gt;
+      window.paypalCheckoutReady = function() {
+      paypal.checkout.setup("&lt;Your-Merchant-ID&gt;", {
+      button: ['paypal-basic']
+      });
+      }
+      &lt;/script&gt;
 
+      &lt;a id="paypal-basic" href="YOUR SETEC URL"&gt;&lt;/a&gt;
+
+    </code></pre>
 
 
 
@@ -46,7 +57,7 @@
     <script src="http://www.paypalobjects.com/api/checkout.js" async></script>
 
 
-    <a id="paypal-basic" href=""></a>
+    <a id="paypal-basic" href="#"></a>
 
 
 
